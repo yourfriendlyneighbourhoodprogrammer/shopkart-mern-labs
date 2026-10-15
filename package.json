@@ -1,0 +1,24 @@
+{
+  "name": "shopkart-mern",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "backend",
+    "frontend"
+  ],
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "dev": "concurrently -k -n api,web \"npm run dev -w backend\" \"npm run dev -w frontend\"",
+    "build": "npm run build -w frontend",
+    "start": "npm start -w backend",
+    "seed": "npm run seed -w backend",
+    "test": "npm test -w backend",
+    "test:ui": "npm test -w frontend",
+    "check": "npm test && npm run test:ui && npm run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

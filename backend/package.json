@@ -1,0 +1,24 @@
+{
+  "name": "shopkart-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node --env-file-if-exists=.env --watch index.js",
+    "start": "node --env-file-if-exists=.env index.js",
+    "seed": "node --env-file-if-exists=.env scripts/seed.js",
+    "test": "node --test --test-concurrency=1 tests/*.test.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1",
+    "bcrypt": "^6.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "cookie-parser": "^1.4.7",
+    "razorpay": "^2.9.6"
+  },
+  "devDependencies": {
+    "supertest": "^7.1.4",
+    "mongodb-memory-server": "^10.2.3"
+  }
+}

@@ -1,0 +1,66 @@
+[
+  {
+    "name": "Everyday Wireless Headphones",
+    "description": "Comfortable over-ear headphones with soft cushions, wireless connectivity and a balanced sound for work and downtime.",
+    "price": 4999,
+    "category": "Electronics",
+    "image": "/images/headphones.svg",
+    "stock": 25
+  },
+  {
+    "name": "Studio Mechanical Keyboard",
+    "description": "A compact mechanical keyboard with tactile switches and a comfortable typing angle for your desk.",
+    "price": 2999,
+    "category": "Electronics",
+    "image": "/images/keyboard.svg",
+    "stock": 12
+  },
+  {
+    "name": "The Everyday Tote",
+    "description": "A roomy cotton canvas tote with reinforced handles, an inside pocket and space for your daily essentials.",
+    "price": 899,
+    "category": "Fashion",
+    "image": "/images/bag.svg",
+    "stock": 20
+  },
+  {
+    "name": "The Art of Everyday Living",
+    "description": "An illustrated guide to simple routines, thoughtful spaces and making the most of ordinary days.",
+    "price": 649,
+    "category": "Books",
+    "image": "/images/book.svg",
+    "stock": 18
+  },
+  {
+    "name": "Warm Glow Table Lamp",
+    "description": "A softly shaded table lamp with a warm finish, made for reading corners and evening light.",
+    "price": 1799,
+    "category": "Home",
+    "image": "/images/lamp.svg",
+    "stock": 8
+  },
+  {
+    "name": "Stoneware Morning Mug",
+    "description": "A generously sized stoneware mug with a comfortable handle and a warm matte glaze.",
+    "price": 449,
+    "category": "Home",
+    "image": "/images/mug.svg",
+    "stock": 30
+  },
+  {
+    "name": "Quiet Wireless Mouse",
+    "description": "A wireless mouse with a comfortable shape and quiet clicks for focused work.",
+    "price": 1199,
+    "category": "Electronics",
+    "image": "/images/mouse.svg",
+    "stock": 15
+  },
+  {
+    "name": "Pocket of Ideas Notebook",
+    "description": "A cloth-style hardback notebook with smooth pages for plans, sketches and the ideas in between.",
+    "price": 299,
+    "category": "Books",
+    "image": "/images/notebook.svg",
+    "stock": 0
+  }
+]
